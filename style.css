@@ -1,0 +1,15 @@
+ul{
+    padding: 0!important;
+    padding-left: 2em!important;
+    white-space: nowrap;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+ul li{
+    margin-left: 1.2em;
+}
+ul li a i{
+    font-size: 1.4em;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <title>Nav-bar</title>
+  </head>
+  <body>
+    <header>
+      <nav class="d-flex flex-grow-1">
+        <div class="logo">
+          <img src="logo.svg" alt="logo" />
+        </div>
+        <div
+          class="list flex-fill d-flex justify-content-center text-capitalize fs-6"
+        >
+          <!-- links -->
+          <ul
+            class="links d-inline m-auto flex-grow-1 d-none d-md-block d-lg-block"
+          >
+            <li class="d-inline">
+              <a href="index.html">home</a>
+            </li>
+            <li class="d-inline">
+              <a href="#">about</a>
+            </li>
+            <li class="d-inline">
+              <a href="#">projects</a>
+            </li>
+            <li class="d-inline">
+              <a href="#">contact</a>
+            </li>
+          </ul>
+          <!-- social media -->
+          <ul
+            class="social-icons flex-grow-1 m-auto ps-2 d-none d-md-block d-lg-block"
+          >
+            <li class="d-inline">
+              <a href="https://www.twitter.com">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li class="d-inline">
+              <a href="https://www.twitter.com">
+                <i class="bi bi-twitter"></i>
+              </a>
+            </li>
+            <li class="d-inline">
+              <a href="https://www.twitter.com">
+                <i class="bi bi-behance"></i>
+              </a>
+            </li>
+            <li class="d-inline">
+              <a href="https://www.twitter.com">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </li>
+            <li class="d-inline">
+              <a href="https://www.twitter.com">
+                <i class="bi bi-sketch"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="toggle d-block d-sm-none d-flex flex-grow-1 justify-content-center flex-fill"
+        >
+          <button class="btn p-0">
+            <span class="burger fs-3"
+              ><i class="bi bi-list fs-1 border-2"></i
+            ></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
