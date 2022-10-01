@@ -1,1 +1,10 @@
 node_modules/
+
+/* the toggle attribute property 
+
+className.classList.toggle("Class") is super useful.
+
+using the if statement too to switch between 
+stages is also good to us but in order to save time
+
+toggle is ok */
