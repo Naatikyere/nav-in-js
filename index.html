@@ -17,7 +17,7 @@
   </head>
   <body>
     <header>
-      <nav class="d-flex flex-grow-1">
+      <nav class="d-flex flex-grow-1 position-relative">
         <div class="logo">
           <img src="logo.svg" alt="logo" />
         </div>
@@ -81,7 +81,26 @@
             ></span>
           </button>
         </div>
+        <ul
+          class="link d-flex flex-column position-absolute text-capitalize my-5 translate-middle top-0 start-0 flex-grow-1 d-sm-block d-md-none"
+        >
+          <div class="hide show-link">
+            <li class="d-inline">
+              <a href="index.html">home</a>
+            </li>
+            <li class="d-inline">
+              <a href="#">about</a>
+            </li>
+            <li class="d-inline">
+              <a href="#">projects</a>
+            </li>
+            <li class="d-inline">
+              <a href="#">contact</a>
+            </li>
+          </div>
+        </ul>
       </nav>
     </header>
+    <script src="app.js"></script>
   </body>
 </html>

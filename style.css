@@ -4,7 +4,7 @@ ul{
     white-space: nowrap;
 }
 a{
-    text-decoration: none;
+    text-decoration: none!important;
     text-align: center;
 }
 ul li{
@@ -12,4 +12,26 @@ ul li{
 }
 ul li a i{
     font-size: 1.4em;
+}
+.link{
+    height: 0;
+    padding-left: 0!important;
+}
+.show-link {
+ display: flex !important;;
+ flex-direction: column;
+ position: absolute;
+ transition: 0.3s ease-in-out linear;
+}
+.show-link li{
+    padding: 0.5em 5.8em;
+    font-size: 1.4em;
+    border-bottom: 2px solid #ececec;
+}
+.hide{
+    display: none;
+    width: 100%;
+}
+.hide li{
+    margin: 0;
 }
